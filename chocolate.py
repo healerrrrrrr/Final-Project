@@ -30,14 +30,14 @@ rate_filter = st.sidebar.radio('Choose the number of companies level',
                                   ('Low','Media','High'))
 
 
-b = df[df.cocoa_percent<= cocoa_percent_filter]
+df = df[df.cocoa_percent<= cocoa_percent_filter]
 
 if  rate_filter == 'Low':
-    c = b[b.rating < 3]
+    df = df[df.rating < 3]
 if rate_filter == 'Medium':
-    c = b[(b.rating >= 3) & (b.rating < 4)]
+    df = df[(df.rating >= 3) & (df.rating < 4)]
 if rate_filter == 'High':
-    c = b[b.rating>=4]
+    df = df[df.rating>=4]
 
 
 #st.subheader('The Map')
