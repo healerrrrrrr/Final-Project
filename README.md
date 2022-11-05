@@ -1,6 +1,7 @@
 # Final Project
- the web app of fianl project
- completed by Yuxin Ou and Qiunina Li
+ The web app of fianl project
+
+Completed by Yuxin Ou and Qiunina Li
 
 Two questions about our analysis on Chocolate Bar:
  - analyze the relationship between counts of ingredients and cocoa percent
